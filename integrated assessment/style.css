@@ -1,0 +1,318 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	scroll-behavior: smooth;
+}
+#navigation{
+	background: #7d9911;
+	display: flex;
+	align-items: center;
+	padding: 20px 100px;
+	position: fixed;
+	width: 100vw;
+}
+#navigation .logo{
+	display: flex;
+	align-items: center;
+}
+#navigation .logo img{
+	width: 55px; 
+	height: 50px;
+	flex: 1;
+}
+
+#navigation .logo h2{
+	color: #ddd;
+	text-transform: capitalize;
+	margin-left: 10px;
+}
+
+#navigation .nav{
+	margin-left: 300px;
+	display: flex;
+}
+
+#navigation .nav a{
+	text-decoration: none;
+	color: #ddd;
+	margin: 0 20px;
+	transition: all 0.15s;
+}
+
+#navigation .nav a:hover{
+	border-bottom: 4px solid #fff;
+}
+
+#navigation .nav a:active{
+	border-bottom: 4px solid #fff;
+}
+
+#homepage{
+	background: rgb(0,0,0,0.4) url(image/doctor1.jpg); 
+	background-size: cover;
+	background-blend-mode: darken;
+	height: 50vh;
+	padding-top: 8cm;
+}
+
+#homepage h1{
+	text-align: center;
+	color: #ddd;
+} 
+
+#homepage p{
+	text-align: center;
+	color: #ddd;
+	margin-top: 10px;
+}
+
+#buttons{
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+
+}
+
+#homepage .btns{
+	padding: 10px 30px;
+	color: #ddd;
+	border: none;
+	font-size: 15px;
+}
+
+#start{
+	background: #1d9911;
+	margin-right: 20px;
+}
+
+#contact{
+	background: #7d9911;
+}
+
+#service{
+	background: whitesmoke;
+	padding-top: 40px;
+	font-family: arial black;
+	color: #373b38;
+}
+
+#service h2{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+.services{
+	display: flex;
+	align-items: center;
+	margin-left: 50px;
+}
+
+#exp{
+	margin-left: 30px;
+}
+
+#exp h3{
+	font-size: 25px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.services p{
+	width: 400px;
+	color: #373b38;
+	font-weight: 500;
+}
+
+.services h3 span{
+	color: #7d9911;
+	display: block;
+}
+
+#footer{
+	background: #121211;
+	color: #ddd;
+	padding-top: 40px; 
+	margin-top: 50px;
+}
+
+#footers{
+	display: flex;
+	align-items: center;
+	margin-left: 4cm;
+}
+
+#footer1{
+	margin-right: 100px;
+}
+
+#footer2,#footer3{
+	margin-left: 100px;
+}
+
+#footer1 p,#footer2 p,#footer3{
+	line-height: 30px;
+	font-size: 17px;
+}
+
+#footer1 p span{
+	display: block;
+}
+
+#footer3 a{
+	display: block;
+	text-decoration: none;
+	color: #ddd;
+}
+
+
+#footer #copyrights{
+	background: #333330;
+	bottom: 0;
+	width: 100%;
+	height: 10vh;
+	margin-top: 5cm;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#contact-us{
+	padding: 50px 0;
+	background: #121211;
+}
+
+#contact-us h2{
+	text-align: center;
+	font-size: 40px;
+	color: #ddd;
+	margin-bottom: 40px;
+}
+
+
+.contact-us{
+	background: #121211;
+	margin: 10px;
+	padding: 20px 40px;
+	display: flex;
+	align-items: center;
+	width: 200px;
+	box-shadow: 0 0 3px gray;
+	border-radius: 10px;
+}
+
+.contact-us div{
+	margin-left: 15px;
+}
+
+.contact-us h4{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.contact-us h4,p{
+	color: #ddd;
+}
+
+
+
+i{
+	color: #7d9911;
+	font-size: 40px;
+}
+
+#form1{
+	display: flex;
+	justify-content: center;
+}
+
+#form2{
+	background: whitesmoke;
+	padding-top: 50px;
+}
+
+#form2 h2{
+	color: #373b38;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 40px;
+}
+
+#form2 h3{
+	color: #7d9911;
+	text-align: center;
+	font-size: 30px;
+}
+
+form{
+	width: 23cm;
+	padding: 40px;
+	margin: 30px 5cm;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+form ::placeholder{
+	font-size: 18px;
+}
+
+form label{
+	font-size: 19px;
+	font-weight: 500;
+}
+
+
+#names-emailInputs{
+	display: flex;
+}
+
+
+#names-emailInputs input{
+	width: 400px;
+	height: 50px;
+	border-radius: 5px;
+	border: 2px solid #bbb;
+	outline: none;
+}
+
+#sub{
+	width: 22.4cm;
+	height: 50px;
+	border-radius: 5px;
+	border: 2px solid #bbb;
+	outline: none;
+}
+
+button{
+	cursor: pointer;
+}
+
+button:hover{
+	opacity: 0.8;
+}
+button:active{
+	opacity: 0.4;
+}
+
+textarea{
+	width: 22cm;
+	height: 5cm;
+	border: 2px solid #bbb;
+	outline: none;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+
+.message-btn{
+	padding: 15px 30px;
+	color: #ddd;
+	border: none;
+	font-size: 17px;
+	background: #085e1c;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+input[type="text"], input[type="email"]{
+	font-size: 20px;
+	padding-left: 20px;
+}
