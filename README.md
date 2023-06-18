@@ -1,2 +1,2 @@
-# Currancy-exchange-
-Money currancy exchange poltiforial
+# Integrated-Assessment
+Designing website called "KIRA CLINIC"
